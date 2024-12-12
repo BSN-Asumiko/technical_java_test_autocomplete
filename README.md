@@ -6,14 +6,20 @@
 - [technical\_java\_test\_autocomplete](#technical_java_test_autocomplete)
   - [Index](#index)
     - [Description](#description)
+    - [Description](#description-1)
     - [Prerequisites](#prerequisites)
+    - [Prerequisites](#prerequisites-1)
     - [Installation](#installation)
+    - [Installation](#installation-1)
     - [App Running](#app-running)
+    - [App Running](#app-running-1)
     - [Tests Running](#tests-running)
     - [Comments](#comments)
     - [Answers](#answers)
+    - [Answers](#answers-1)
 
 
+### Description
 ### Description
 
 This is the solution code for a technical test, which involves auto-complete feature with following requirements:
@@ -25,12 +31,14 @@ This is the solution code for a technical test, which involves auto-complete fea
     - a web interface is not required; the functionality can be implemented as a simple method call that takes a string input and returns up to four suggestions.
 
 ### Prerequisites
+### Prerequisites
 
 To build and run the project, ensure you have the following installed:
 
     - Java Development Kit (JDK) 17 or higher (required for maven.compiler.source and maven.compiler.target set to 17).
     - Apache Maven 3.6.0 or higher (to build the project and manage dependencies).
 
+### Installation
 ### Installation
 
 1. Clone the repository :
@@ -45,6 +53,7 @@ To build and run the project, ensure you have the following installed:
 ```
 
 
+### App Running 
 ### App Running 
 
 To run the application, use the following Maven command (if you're not using an IDE):
@@ -71,6 +80,7 @@ To run tests, use the following Maven command (if you don't have IDE extensions 
 When developing the solution, I knew that I could make a simple function call, but I decided to add some interaction and provide a fallback for the situation when there are no matches in the keywords list. In a real-world scenario, this fallback would not be necessary, as the suggestions list would simply remain empty and not cause any problems. However, in this case, I considered it helpful for manual testing of the code.
 
 
+### Answers 
 ### Answers 
 
 1. What would you change if the list of keywords was large (several millions)?
